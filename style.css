@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bmi {
+    max-width: 600px;
+    width: 100%;
+    margin: 200px auto;
+    background-color: rgb(20, 241, 167);
+    box-shadow: 0 10px 5px rgb(146, 146, 146);
+    padding: 40px 20px;
+    text-align: center;
+}
+.bmi h2 {
+    color: rgb(230, 30, 167);
+}
+
+#wg {
+    margin-top: 15px;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#hg {
+    margin-top: 15px;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 1s ease;
+}
+
+button:hover {
+    background-color: transparent;
+
+}
+
+.msg {
+    color: rgb(230, 30, 167)
+}
